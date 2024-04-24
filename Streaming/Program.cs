@@ -17,8 +17,8 @@ builder.Services.AddSwaggerGen(options =>
         Description = "API para gestão de plataforma de Streaming",
         Contact = new OpenApiContact
         {
-            Name = "Pedro Yasui",
-            Url = new Uri("https://www.linkedin.com/in/pedro-yasui-9394b318/")
+            Name = "João Victor de Souza",
+            Url = new Uri("https://www.linkedin.com/in/joão-victor-a51a40207/")
         },
         License = new OpenApiLicense
         {

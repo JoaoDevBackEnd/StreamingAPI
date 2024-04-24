@@ -18,13 +18,12 @@ namespace Streaming.Controllers
         }
         #region Put
         /// <summary>
-        /// Editar uma conta
+        /// CRIAR  uma conta
         /// </summary>
         /// <returns></returns>
         /// <response code="200">Conta criada com sucesso</response>
-        /// <response code="400">Já existe uma conta com esse nome</response>
+        /// <response code="400">Já existe conta com esses dados</response>
         /// <response code="422">Dados inválidos</response>
-        /// <response code="404">Conta não encontrada</response>
         [HttpPost]
         public IActionResult Post (CreateAccountRequest model){
            //VALIDANDO OS DADOS 
